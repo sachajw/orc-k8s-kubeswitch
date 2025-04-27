@@ -1,0 +1,223 @@
+repo_name: sachajw/kubeswitch
+report_id: 8480a12cf75c67b2c610931de9fc6628
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T08:38:49+00:00'
+requested_by: danielfoehrKn
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/sachajw/kubeswitch
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/sachajw/kubeswitch/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Daniel Foehr
+  last_updated_on: 2022-05-24 10:07:40.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/sachajw/kubeswitch/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: d060239
+  last_updated_on: 2019-12-30 13:48:00.000000000 Z
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/sachajw/kubeswitch/blob/master/vendor/github.com/Azure/azure-sdk-for-go/azure-pipelines.yml
+  detection_source: vendor/github.com/Azure/azure-sdk-for-go/azure-pipelines.yml
+  last_updated_by: Daniel Foehr
+  last_updated_on: 2021-11-02 19:38:56.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/sachajw/kubeswitch/blob/master/vendor/github.com/json-iterator/go/.codecov.yml
+  detection_source: vendor/github.com/json-iterator/go/.codecov.yml
+  last_updated_by: Daniel Foehr
+  last_updated_on: 2020-10-18 18:51:06.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/sachajw/kubeswitch/blob/master/vendor/github.com/google/addlicense/Dockerfile
+  detection_source: vendor/github.com/google/addlicense/Dockerfile
+  last_updated_by: Daniel Foehr
+  last_updated_on: 2022-05-25 08:48:20.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sachajw/kubeswitch
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/sachajw/kubeswitch/blob/master/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: Daniel Foehr
+  last_updated_on: 2021-11-02 21:36:30.000000000 Z
+- name: Helm
+  description: The Kubernetes Package Manager
+  website_url: https://artifacthub.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Helm Charts
+  image_url: https://img.stackshare.io/package_manager/5983/default_339a3dd6beb63de6d3ff804a4e676ae114919d80.jpg
+  detection_source_url: https://github.com/sachajw/kubeswitch/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: d060239
+  last_updated_on: 2019-12-30 13:48:00.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/sachajw/kubeswitch/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Daniel Foehr
+  last_updated_on: 2022-05-24 10:07:40.000000000 Z
+- name: OpenCensus
+  description: A single distribution of libraries that automatically collect traces
+    and send them to any backend
+  website_url: https://opencensus.io/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg
+  detection_source_url: https://github.com/sachajw/kubeswitch/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Daniel Foehr
+  last_updated_on: 2022-05-24 10:07:40.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/sachajw/kubeswitch/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Kris Budde
+  last_updated_on: 2022-07-13 18:18:03.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/sachajw/kubeswitch/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Daniel Foehr
+  last_updated_on: 2022-05-24 10:07:40.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/sachajw/kubeswitch/blob/master/vendor/github.com/BurntSushi/toml/.travis.yml
+  detection_source: vendor/github.com/BurntSushi/toml/.travis.yml
+  last_updated_by: Daniel Foehr
+  last_updated_on: 2020-10-18 18:51:06.000000000 Z
+- name: Apex
+  description: Serverless Architecture with AWS Lambda
+  website_url: https://github.com/apex/apex
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/4301/10543471.png
+  detection_source_url: https://github.com/sachajw/kubeswitch/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Daniel Foehr
+  last_updated_on: 2021-12-13 17:44:13.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/sachajw/kubeswitch
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/sachajw/kubeswitch/blob/master/vendor/golang.org/x/net/http2/Dockerfile
+  detection_source: vendor/golang.org/x/net/http2/Dockerfile
+  last_updated_by: Daniel Foehr
+  last_updated_on: 2020-10-18 18:51:06.000000000 Z
